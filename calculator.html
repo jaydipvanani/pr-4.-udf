@@ -1,0 +1,64 @@
+<script>
+    // const calc = (a, b) => {
+    //     let choice = prompt("enter your choice" + "+ , - , * , / , % ");
+    //     switch (choice) {
+    //         case "+":
+    //             return a + b
+    //             break;
+    //         case "-":
+    //             return a - b
+    //             break;
+    //         case "*":
+    //             return a * b
+    //             break;
+    //         case "/":
+    //             return a / b
+    //             break;
+    //         case "%":
+    //             return a % b
+    //             break;
+    //         default:
+    //             return "this is invalid keyword "
+    //             break;
+    //     }
+    // }
+    // let a = parseInt(prompt("enter the a value "));
+    // let b = parseInt(prompt("enter the b value "));
+    // const x = calc(a, b);
+    // console.log(x);
+
+
+    const calc = (a) => {
+        let choice = prompt("enter your choice" + "+ , - , * , / , % ");
+        switch (choice) {
+
+            case "+":
+                let b = parseInt(prompt("enter the b value "))
+                return a + b
+                break;
+            case "-":
+                let b1 = parseInt(prompt("enter the b value "))
+                return a - b1
+                break;
+            case "*":
+                let b2 = parseInt(prompt("enter the b value "))
+                return a * b2
+                break;
+            case "/":
+                let b3 = parseInt(prompt("enter the b value "))
+                return a / b3
+                break;
+            case "%":
+                let b4 = parseInt(prompt("enter the b value "))
+                return a % b4
+                break;
+            default:
+                return "this is invalid keyword "
+                break;
+        }
+    }
+    let a = parseInt(prompt("enter the a value "));
+    const x = calc(a);
+    console.log(x);
+
+</script>
